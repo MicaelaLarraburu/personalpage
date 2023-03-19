@@ -18,26 +18,13 @@ nav ul{
     align-items: flex-end;
 }
 
-
-header {
-    position: sticky;
-    top: 0%;
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
+.nav-link{
+    color:grey;
+    font-size: 1.2rem;
 }
-
-ul li {
- list-style: none;
- display: inline-block;
- margin: 0px 10px;
+.navbar-collapse{
+    justify-content: flex-end;
 }
-
-ul li a {
-  color: antiquewhite;  
-  font-size: 1.4rem;
-  text-decoration: none;
-}  
 
 footer li {
     list-style: none;
@@ -114,6 +101,16 @@ footer{
     display: flex;
     margin-top: 100px;
     margin-bottom: 50px;
+}
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 5px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
 }
 /* media queries */
 
