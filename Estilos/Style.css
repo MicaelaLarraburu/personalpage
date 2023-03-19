@@ -1,0 +1,130 @@
+*{
+    margin: 5px;
+    padding: 0px;
+} 
+
+body{
+    background-color: black;
+    color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-nav{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+nav ul{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+header {
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+ul li {
+ list-style: none;
+ display: inline-block;
+ margin: 0px 10px;
+}
+
+ul li a {
+  color: antiquewhite;  
+  font-size: 1.4rem;
+  text-decoration: none;
+}  
+
+footer li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+   }
+ul{
+    text-align: center;
+
+ }
+
+ section h2{
+    text-align: center;
+}  
+main h1{
+    text-align: center;
+} 
+
+ 
+section img{
+margin: 0px 23px;} 
+
+main img{
+    margin: 0px 23px;
+}
+ 
+section p{
+    text-align: center;
+} 
+.video-youtube{
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+}
+iframe{
+    width: 440px;
+    height: 200px;
+}
+.redes{
+    display: flex;
+    justify-content:right;
+}
+.quien-soy{
+    display: flex;
+    justify-content:center;
+    margin: 60px;
+}
+.presentacion-mica{
+    display: flex;
+    justify-content:center;
+    margin: 60px;
+}
+.mis-trabajos{
+    display: flex;
+    justify-content:center;
+    margin: 60px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+    margin: 80px;
+}
+.galeria-index {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+    grid: row gap 1px;
+    justify-items: center;
+    margin-top: 10px;
+}
+
+.article-container article{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+/* media queries */
+
+/*tablet*/
+@media only screen and (max-widht: 768px){}
+
+/*mobile*/
+@media only screen and (max-widht: 576px){
+    .quien-soy { flex-direction: column;}
+    .article-container{ flex-direction: column;}
+    .video-youtube{ flex-direction: column;}
+}
+    
+   

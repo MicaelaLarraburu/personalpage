@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/Style.css"/>
+
+    <title>MicaLarraburu</title>
+</head>
+<body>
+     
+    <header>
+                <img src="../img/logo2.jpeg" height="60" width="50">
+
+        
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="./Quien soy.html">Quien soy?</a></li>
+                <li><a href="./Mis trabajos.html">Mis trabajos</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+                <li><a href="./NotIT.html">NotIT</a></li>
+            </ul>
+
+
+
+        </nav>
+
+    </header>
+    <main>
+        <h1>Contactame</h1>
+
+        <div class="contact_form">
+
+            <div class="formulario">			
+          <h1>Formulario de contacto</h1>
+                    <h3>Enviame un mensaje!</h3>
+    
+    
+                        <form action="submeter-formulario.php" method="post">				
+    
+                            
+                                    <p>
+                                        <label for="nombre" class="colocar_nombre">Nombre
+                                            <span class="obligatorio">*</span>
+                                        </label>
+                                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                    </p>
+                                
+                                    <p>
+                                        <label for="email" class="colocar_email">Email
+                                            <span class="obligatorio">*</span>
+                                        </label>
+                                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                    </p>
+                            
+                                    <p>
+                                        <label for="telefone" class="colocar_telefono">Teléfono
+                                        </label>
+                                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                    </p>		
+                                
+                                    
+                                
+                                    <p>
+                                        <label for="asunto" class="colocar_asunto">Asunto
+                                            <span class="obligatorio">*</span>
+                                        </label>
+                                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                    </p>		
+                                
+                                    <p>
+                                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                                            <span class="obligatorio">*</span>
+                                        </label>                     
+                                             <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                       </p>	  								
+                                
+                                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+                                    <p class="aviso">
+                                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                                    </p>					
+                            
+                        </form>
+
+
+
+
+
+
+
+
+    </main>
+
+    <section>
+        <aside> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1242227578605!2d-58.399270385013466!3d-34.601020180460175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca9521332a27%3A0xdff1fd470c5c2e21!2sViamonte%20%26%20Jun%C3%ADn%2C%20C1113%20CABA!5e0!3m2!1ses-419!2sar!4v1676779277710!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </aside>
+        </aside>
+    </section>
+
+    <footer> 
+        <li><a>Facebook</a></li>
+        <li><a>Twitter</a></li>
+        <li><a>Instagram</a></li>
+        <li><a>Youtube</a></li>
+
+    </footer>
+    
+</body>
+</html>
