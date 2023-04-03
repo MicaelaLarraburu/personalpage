@@ -107,6 +107,15 @@ footer{
     font-size: 27px;
     padding: 5px;
 }
+.formulario-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: 1px solid white;
+    width: 125%;    
+}
 
 .bigicon {
     font-size: 35px;
@@ -122,6 +131,9 @@ footer{
     .quien-soy { flex-direction: column;}
     .article-container{ flex-direction: column;}
     .video-youtube{ flex-direction: column;}
+    .presentacion-mica { flex-direction: column;}
+    .galeria-index{ flex-direction: column;}
+    .formulario-contacto{ flex-direction: column;}
 }
     
    
