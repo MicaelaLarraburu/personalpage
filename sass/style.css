@@ -1,0 +1,174 @@
+.galeria-index {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 10px; */
+  grid: row gap 1px;
+  justify-items: center;
+  margin-top: 10px;
+}
+
+.presentacion-mica {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+/*estilos generales*/
+* {
+  margin: 5px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+  color: beige;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu-nav {
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+nav ul {
+  display: flex;
+  align-items: flex-end;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-collapse .nav-link {
+  color: grey;
+  font-size: 1.2rem;
+}
+
+section h2 {
+  text-align: center;
+}
+
+main h1 {
+  text-align: center;
+}
+
+section img {
+  margin: 0px 23px;
+}
+
+main img {
+  margin: 0px 23px;
+}
+
+section p {
+  text-align: center;
+}
+
+.video-youtube {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+iframe {
+  width: 440px;
+  height: 200px;
+}
+
+.redes {
+  display: flex;
+  justify-content: right;
+}
+
+.quien-soy {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+.presentacion-mica {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+.mis-trabajos {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid white;
+  margin: 80px;
+}
+footer li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+footer ul {
+  text-align: center;
+}
+
+.galeria-index {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 10px; */
+  grid: row gap 1px;
+  justify-items: center;
+  margin-top: 10px;
+}
+
+.article-container article {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.header {
+  color: #36A0FF;
+  font-size: 27px;
+  padding: 5px;
+}
+
+.formulario-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-top: 1px solid white;
+  width: 125%;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
+}
+
+/* media queries */
+/*tablet*/
+/*mobile*/
+@media only screen and (max-widht: 576px) {
+  .quien-soy {
+    flex-direction: column;
+  }
+  .article-container {
+    flex-direction: column;
+  }
+  .video-youtube {
+    flex-direction: column;
+  }
+  .presentacion-mica {
+    flex-direction: column;
+  }
+  .galeria-index {
+    flex-direction: column;
+  }
+  .formulario-contacto {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

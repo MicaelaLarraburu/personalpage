@@ -1,0 +1,13 @@
+.galeria-index {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+    grid: row gap 1px;
+    justify-items: center;
+    margin-top: 10px;
+}
+.presentacion-mica{
+    display: flex;
+    justify-content:center;
+    margin: 60px;
+}

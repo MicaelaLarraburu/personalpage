@@ -1,8 +1,9 @@
+@import "index"; 
+/*estilos generales*/
 *{
     margin: 5px;
     padding: 0px;
 } 
-
 body{
     background-color: black;
     color: beige;
@@ -17,33 +18,19 @@ nav ul{
     display: flex;
     align-items: flex-end;
 }
-
-.nav-link{
-    color:grey;
-    font-size: 1.2rem;
-}
 .navbar-collapse{
     justify-content: flex-end;
+    .nav-link{
+        color:grey;
+        font-size: 1.2rem;
+    }
 }
-
-footer li {
-    list-style: none;
-    text-decoration: none;
-    display: inline-block;
-   }
-ul{
-    text-align: center;
-
- }
-
  section h2{
     text-align: center;
 }  
 main h1{
     text-align: center;
 } 
-
- 
 section img{
 margin: 0px 23px;} 
 
@@ -87,6 +74,15 @@ footer{
     justify-content: center;
     border-top: 1px solid white;
     margin: 80px;
+    li {
+        list-style: none;
+        text-decoration: none;
+        display: inline-block;
+       }
+       ul{
+        text-align: center;
+    
+     }
 }
 .galeria-index {
     display: grid;
@@ -106,6 +102,7 @@ footer{
     color: #36A0FF;
     font-size: 27px;
     padding: 5px;
+    
 }
 .formulario-contacto {
     display: flex;
